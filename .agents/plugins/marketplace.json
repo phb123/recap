@@ -1,0 +1,20 @@
+{
+  "name": "recap",
+  "interface": {
+    "displayName": "Recap"
+  },
+  "plugins": [
+    {
+      "name": "recap",
+      "source": {
+        "source": "local",
+        "path": "./plugins/recap"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

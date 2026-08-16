@@ -1,0 +1,27 @@
+{
+  "name": "recap",
+  "version": "1.0.0",
+  "description": "Create decision-oriented project handovers from recent local Codex traces.",
+  "author": {
+    "name": "Recap Contributors"
+  },
+  "homepage": "https://github.com/phb123/recap",
+  "repository": "https://github.com/phb123/recap",
+  "license": "MIT",
+  "keywords": ["codex", "handover", "project-history", "traces"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Recap",
+    "shortDescription": "Turn recent Codex traces into a usable project handover.",
+    "longDescription": "Recap reads matching local Codex session traces and turns the relevant user and final-agent messages into a decision-oriented handover.",
+    "developerName": "Recap Contributors",
+    "category": "Productivity",
+    "capabilities": ["Instructions"],
+    "defaultPrompt": [
+      "Catch me up on this project's recent work.",
+      "Summarize the decisions and next steps for this repository.",
+      "Create a handover from the most recent project traces."
+    ],
+    "brandColor": "#171717"
+  }
+}

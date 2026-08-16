@@ -1,0 +1,4 @@
+interface:
+  display_name: "Recap"
+  short_description: "Create a thorough project handover from traces"
+  default_prompt: "Use $catch-up to produce a thorough handover of this project's direction, implementation, current state, constraints, and next steps."
