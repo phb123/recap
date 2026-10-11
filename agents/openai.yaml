@@ -1,4 +1,4 @@
 interface:
   display_name: "Recap"
-  short_description: "Create a thorough project handover from traces"
-  default_prompt: "Use $catch-up to produce a thorough handover of this project's direction, implementation, current state, constraints, and next steps."
+  short_description: "One-page recap from all your coding agents' chats"
+  default_prompt: "Use $catch-up to write a one-page summary of this project from every coding agent's recent sessions, with the latest work in the most detail."

@@ -1,0 +1,15 @@
+{
+  "name": "recap",
+  "description": "One-page project recap from all your coding agents' chats.",
+  "owner": {
+    "name": "Recap Contributors"
+  },
+  "plugins": [
+    {
+      "name": "recap",
+      "source": "./plugins/recap",
+      "description": "One-page project recap from the chat sessions of every local coding agent, weighted toward recent work.",
+      "category": "productivity"
+    }
+  ]
+}
